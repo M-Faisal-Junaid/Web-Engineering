@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .square {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    background-color: #f00;
+    position: absolute;
+  }
+  
+  .center {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .corner {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .top-left {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .top-right {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .bottom-left {
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .bottom-right {
+    bottom: 10px;
+    right: 10px;
+  }
+  
