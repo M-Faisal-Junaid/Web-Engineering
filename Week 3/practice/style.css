@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .square {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .icon{
+    width: 500px;
+    height: 500px;
+  }
+  p{
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
