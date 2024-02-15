@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set full viewport height */
+  }
+  
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333; /* Add color to header & footer */
+    color: #fff; /* Change text color */
+  }
+  
+  main {
+    display: flex;
+    flex-grow: 1; /* Fill remaining space vertically */
+  }
+  
+  aside {
+    width: 25%;
+    padding: 1rem;
+    background-color: #d17ebc;
+  }
+  
+  article {
+    width: 75%;
+    padding: 1rem;
+    background-color: #fabebe; /* Add background color to article */
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 1rem;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+  
