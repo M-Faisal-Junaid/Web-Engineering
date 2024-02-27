@@ -1,0 +1,13 @@
+#container {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.col {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
